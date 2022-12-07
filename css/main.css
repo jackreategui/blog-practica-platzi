@@ -20,6 +20,10 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
+    background-image: url("https://images.wallpapersden.com/image/download/4k-beautiful-landscape-digital-art_bGhuZm6UmZqaraWkpJRobWllrWdma2U.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 a{
@@ -55,4 +59,21 @@ header .header-icon-container .icons{
 
 header .icons span{
     color: var(--white);
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 90px;
+}
+
+nav .nav-logo-container{
+    margin-left: 50px;
+}
+
+nav .profile-link{
+    display: flex;
+    justify-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
 }
