@@ -1,5 +1,6 @@
 :root{
     --green-light: #47cfac;
+    --green-dark: #30b493;
     --white: #fff;
     --black: #000;
 }
@@ -90,9 +91,9 @@ nav .profile-link a{
     border-bottom: 1px solid var(--black);
 }
 
-/* Main */
+/* Main Home*/
 
-main{
+.home-main{
     width: 100%;
     height: 100%;
     background-image: url("https://149357117.v2.pressablecdn.com/wp-content/uploads/2018/03/space-art-astronaut-spaceship-alien-martian-landscape-1024x576.jpg");
@@ -105,7 +106,7 @@ main{
     padding-top: 150px;
 }
 
-main h1{
+.home-main .home-main-title{
     color: var(--white);
     font-size: 3.5rem;
     line-height: 4.2rem;
@@ -114,7 +115,7 @@ main h1{
     font-weight: 600;
 }
 
-main .main-button{
+.home-main .home-main-button{
     display: inline-block;
     width: 120px;
     height: 50px;
@@ -128,7 +129,7 @@ main .main-button{
     font-weight: 900;
 }
 
-main .main-button:hover{
+.home-main .home-main-button:hover{
     width: 125px;
     height: 52px;
 }
