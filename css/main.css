@@ -5,6 +5,8 @@
     --black: #000;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;500;700;900&family=Roboto:wght@400;700&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -13,7 +15,6 @@
 
 html{
     font-size: 62.5%;
-    font-family: Helvetica, sans-serif;
 }
 
 body{
@@ -22,6 +23,7 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 a{
@@ -113,6 +115,7 @@ nav .profile-link a{
     margin-bottom: 100px;
     letter-spacing: 0.8rem;
     font-weight: 600;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .home-main .home-main-button{
