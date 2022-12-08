@@ -3,6 +3,7 @@
     --green-dark: #30b493;
     --white: #fff;
     --black: #000;
+    --black-second: #333;
     --grey: #e6e9ed;
 }
 
@@ -92,6 +93,10 @@ nav .profile-link{
 nav .profile-link a{
     color: var(--black);
     border-bottom: 1px solid var(--black);
+}
+
+nav .profile-link a:hover{
+    border-bottom: 1px solid var(--green-dark);
 }
 
 /* Main Home*/
@@ -210,10 +215,65 @@ nav .profile-link a{
     font-size: 2.4rem;
     padding-bottom: 20px;
     text-align: center;
-    margin: 20px 0;
-    border-bottom: 2px solid var(--grey);
+    margin: 30px 0 50px;
+    border-bottom: 2px solid var(--green-light);
+}
+
+.blog-post-container__cards{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    padding: 0 100px;
 }
 
 .post-container{
-    
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+
+.post-container h2{
+    font-size: 2.0rem;
+    color: var(--black);
+    font-weight: 500;
+    padding: 15px 15px 0;
+}
+
+.post-container p{
+    font-size: 1.6rem;
+    color: var(--black);
+    font-weight: 300;
+    padding: 10px 15px 0;
+    margin-bottom: 35px;
+    line-height: 2.4rem;
+}
+
+.post-container img{
+    width: 100%;
+}
+
+.post-container .blogs-button{
+    margin-left: 10px;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: var(--black-second);
+    border-top: 35px solid var(--green-dark);
+}
+
+footer p{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    color: var(--white);
+    display: flex;
+    place-content: center;
+    padding: 20px;
 }
