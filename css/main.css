@@ -34,6 +34,11 @@ a{
     color: black;
 }
 
+.grid-container{
+    max-width: 980px;
+    margin: auto;
+}
+
 /* Header */
 
 header{
@@ -226,6 +231,7 @@ nav .profile-link a:hover{
     width: 100%;
     height: 100%;
     padding: 0 100px;
+    justify-content: center;
 }
 
 .post-container{
