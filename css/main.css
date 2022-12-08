@@ -273,7 +273,80 @@ nav .profile-link a:hover{
 
 /* Blog page */
 
+.blog-img-container{
+    padding: 0 50px 40px;
+}
 
+.blog-img-container img{
+    width: 100%;
+    height: auto;
+}
+
+.blog-main-container{
+    padding: 0 50px 40px;
+}
+
+.blog-main-container h3{
+    border-bottom: 1px solid var(--grey);
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: var(--black);
+    padding-bottom: 10px;
+}
+
+.blog-main-container .grid-container h1{
+    font-size: 3.5rem;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.blog-main-container .grid-container p{
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 2.2rem;
+    padding: 10px 0;
+}
+
+.contact-main-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 250px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--grey);
+    text-align: center;
+    padding: 0 200px;
+}
+
+.contact-main-container span{
+    font-size: 4rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.contact-main-container span:hover{
+    color: var(--green-dark);
+}
+
+.contact-main-container a{
+    font-size: 1.8rem;
+    color: var(--black);
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.contact-main-container a:hover{
+    color: var(--green-dark);
+}
+
+.contact-main-container p{
+    font-size: 1.4rem;
+    color: var(--black);
+    font-weight: 300;
+    padding-top: 10px;
+}
 
 /* Footer */
 
